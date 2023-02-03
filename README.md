@@ -32,10 +32,10 @@ Byte
 - A group of eight bits. For example, 01101000 is a byte.
   A signle byte can represent up to 256 data values (2^8).
   Since a binary number is a number expressed with only two symbols, like 0 and 1, a byte can effectively represent all of the numbers between 0 and 255, inclusive, in binary format.
-  1: 0000 0001
-  2: 0000 0010
-  3: 0000 0011
-  4: 0000 0100
+  - 1: 0000 0001
+  - 2: 0000 0010
+  - 3: 0000 0011
+  - 4: 0000 0100
 
 ## Big O Notation
 
