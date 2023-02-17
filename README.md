@@ -59,3 +59,25 @@ From: <https://www.freecodecamp.org>
 
 Some sorting algorithms have different time complexities depending on the layout of elements in their input array. In rare cases, their time complexity will be much worse than in more common cases. Similarly , an algorithm that takes in a string and performs special operations on uppercase characters might have different time complexity when run on an input string of only uppercase characters vs. on an input string with just a few uppercase characters.
 When describing the time complexity of an algorithm, it can sometimes be helpful to specify whether the time complexity refers to the average case or to the worset case (e.g, "this algorithm runs in O(nlog(n)) time on average and in O(n^2) time in the worse case").
+
+## Logarithm
+
+If an algorithm has a logarithmic time complexity(O(log(n))), where n is the size of the input) then whenever the algorithms input doubles in size (i.e whenever n doubles), the number of operations needed to complete the algorithm only increases by one unit. Conversely, an algorithm with a linear time complexity would see its number of operations double if its input size doubled.
+
+## Arrays
+
+Accessing a value at a given index: O(1)
+Updating a value at a given index: O(1)
+Inserting a value at a given beginning: O(n)
+Inserting a value in the middle: O(n)
+Inserting a value at the end:
+
+- amortized O(1) when dealing with a dynamic array
+- O(n) when dealing with a static array
+  Removing a value at the beginning: O(n)
+  Removing a value in th emiddle: O(n)
+  Removing a value at the end: O(1)
+  copying the array: O(n)
+
+get => i.e array[2] => O(1)
+set => i.e, array[2]= 5 => O(1)
